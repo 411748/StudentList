@@ -39,9 +39,9 @@ int main()
   char b1 = '-';
   char b2 = '-';
   char b3 = '-';
-  char c1 = '4';
+  char c1 = '-';
   char c2 = '-';
-  char c3 = '8';  
+  char c3 = '-';  
   char arr[3][3] = {a1, a2, a3, b1, b2, b3, c1, c2, c3};
   p_board(a1, a2, a3, b1, b2, b3, c1, c2, c3, arr);
   reset_board(arr);
